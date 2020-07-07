@@ -84,4 +84,11 @@ Amazon DynamoDB :: The sole purpose was to use it is to Duplication Detection an
 
 So by providing these information we can check the duplication.
 
-APACHE SOLR :: is basically NonRelationa Database as well as it is open based search engine which is being as serch engine at xiQ for quick searching. So the flow will be like first we get the URLs and redirect the links and again search into databse for duplication, of the link is not being duplicated then we check the hash of the content the same from database and the result as unduplicated URLs will be saved into database.
+APACHE SOLR :: is basically NonRelationa Database as well as it is open based search engine which is being use as search engine at xiQ for quick searching. So the flow will be like first we get the URLs and redirect the links and again search into databse for duplication, of the link is not being duplicated then we check the hash of the content the same from database and the result as unduplicated URLs will be saved into database.
+URL_AWSDynamoDB
+![URL_AWSDynamoDB](URL_AWSDynamoDB.png)
+
+Afer this process, We get the URL/WEblink regarding the article we parse the hash of the contetent and then again check the URL duplication from AWS DynamoDB whether the URL already exists or not then save it into APACHE SOLR. So now we have searchable content in APACHE SOLR database.
+url_hash_solr
+![url_hash_solr](url_hash_solr.png)
+
