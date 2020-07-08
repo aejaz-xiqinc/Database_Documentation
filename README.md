@@ -1,6 +1,6 @@
 <h1>xiQ Database Documentation</h1>
-
-![url_hash_solr](computer.png)
+<img src="xiqinc.png" width="100" height="100" />
+<img src="computer.png" width="100" height="100" />
 
 Regarding the database architecture, how the data is dumping from where/how many sources into xiQ database, we need to get familier first with few terminologies as following: 
 
@@ -10,6 +10,8 @@ Regarding the database architecture, how the data is dumping from where/how many
 4. Amazon DynamoDB
 5. APACHE SOLR
 6. Serverless Architecture
+7. Tables related inofmation
+8. CRON Jobs
 
 <br>
 <h2>Relational Database Management System</h2>
@@ -127,3 +129,5 @@ Now, we have few tables related to tagging process as follwoing ::
 |ignorelist_BU|Block list related infrmation|
 |daily_bulletin_master_parameters|use for auto curation/change algorithm e.g|
 
+CRON Jobs :: Cron is one of the most useful utility that you can find in any Unix-like operating system. It is used to schedule commands at a specific time. These scheduled commands or tasks are known as “Cron Jobs”. Cron is generally used for running scheduled backups, monitoring disk space, deleting files (for example log files) periodically which are no longer required, running system maintenance tasks and a lot more. In this brief guide, we will see the basic usage of Cron Jobs in Linux.<br>
+<https://crontab.guru/>
