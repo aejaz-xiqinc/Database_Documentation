@@ -1,4 +1,7 @@
 <h1>xiQ Database Documentation</h1>
+
+![url_hash_solr](computer.png)
+
 Regarding the database architecture, how the data is dumping from where/how many sources into xiQ database, we need to get familier first with few terminologies as following: 
 
 1. Relational Database Management System (RDBMS)
