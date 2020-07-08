@@ -92,3 +92,35 @@ Afer this process, We get the URL/WEblink regarding the article we parse the has
 url_hash_solr
 ![url_hash_solr](url_hash_solr.png)
 
+Lets have few table names and description taht are containing what information
+
+| Table Name | Description |
+| ----------- | ----------- |
+| rss_sources | RSS Feeds -> Article Links and Title |
+| twitter_sources|Twitter Handler -> Twitter Source|
+| person_twitter| Person related information will be saved here corelated with twitter post/handler|
+| contact| Person Contact related information like firstname/lastname/email e.g|
+| daily_bulletin_master| CompanyID/Name/logo/title|
+| business_unit_sections| GroupName/CompanyID|
+| article| ArticleID/link/source/imageURL/hash value|
+|twitter_update| TweeterID/link/title/companyID/ProfilePic/handler|
+|searchterm_BU| ID/BuildID/SearchTerm|
+
+Now, we have few tables related to tagging process as follwoing ::
+
+| Table Name | Description |
+| ----------- | ----------- |
+| company_feeds| Having relations regarding company news/tweets/person news/person tweets relation|
+|daily_bulletin_BU|Containing information related to digest|
+|daily_bulletin_searchterms| Match searched terms against serched article|
+|alerts| Containing information regarding the news/banking feeds e.g|
+|hottopics|industries related data|
+|users|internal Users/app users|
+|user_company|all companies that user added|
+|user_hottopics|all industries that user added|
+|user_note|all the notes that user take|
+|user_searches|User added inofrmation /person/company|
+|user_tokens|User device information, device logged in information, use for push notification|
+|ignorelist_BU|Block list related infrmation|
+|daily_bulletin_master_parameters|use for auto curation/change algorithm e.g|
+
