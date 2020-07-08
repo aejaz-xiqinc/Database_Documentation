@@ -1,6 +1,5 @@
 <h1>xiQ Database Documentation</h1>
 <img src="xiqinc.png" width="100" height="100" />
-<img src="computer.png" width="100" height="100" />
 
 Regarding the database architecture, how the data is dumping from where/how many sources into xiQ database, we need to get familier first with few terminologies as following: 
 
